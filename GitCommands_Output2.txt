@@ -1,0 +1,49 @@
+sherlock@raspberrypi:~/Desktop/Project3/NUIST_202283890007_Python $ git add .
+sherlock@raspberrypi:~/Desktop/Project3/NUIST_202283890007_Python $ git commit -m "MultipleThreeNums.py"
+作者身份未知
+
+*** 请告诉我您是谁。
+
+运行
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+来设置您账号的缺省身份标识。
+如果仅在本仓库设置身份标识，则省略 --global 参数。
+致命错误：无法自动探测邮件地址（得到 'sherlock@raspberrypi.(none)'）
+sherlock@raspberrypi:~/Desktop/Project3/NUIST_202283890007_Python $ git congih --global user.email "2025352914@qq.com"
+git：'congih' 不是一个 git 命令。参见 'git --help'。
+
+最相似的命令是
+	config
+sherlock@raspberrypi:~/Desktop/Project3/NUIST_202283890007_Python $ git config --global user.email "2025352914@qq.com"
+sherlock@raspberrypi:~/Desktop/Project3/NUIST_202283890007_Python $ git confih --global user.name "Sherlock"
+git：'confih' 不是一个 git 命令。参见 'git --help'。
+
+最相似的命令是
+	config
+sherlock@raspberrypi:~/Desktop/Project3/NUIST_202283890007_Python $ git config --global user.name "Sherlock"
+sherlock@raspberrypi:~/Desktop/Project3/NUIST_202283890007_Python $ git commit -m "MultipleThreeNums.py"
+[main f0a0875] MultipleThreeNums.py
+ 1 file changed, 7 insertions(+)
+ create mode 100644 MultipleThreeNUms.py
+sherlock@raspberrypi:~/Desktop/Project3/NUIST_202283890007_Python $ git push
+Username for 'https://github.com': ^C
+sherlock@raspberrypi:~/Desktop/Project3/NUIST_202283890007_Python $ git push
+Username for 'https://github.com': Sherlock0129
+Password for 'https://Sherlock0129@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+致命错误：'https://github.com/Sherlock0129/NUIST_202283890007_Python.git/' 鉴权失败
+sherlock@raspberrypi:~/Desktop/Project3/NUIST_202283890007_Python $ git push
+Username for 'https://github.com': Sherlock0129
+Password for 'https://Sherlock0129@github.com': 
+枚举对象中: 4, 完成.
+对象计数中: 100% (4/4), 完成.
+使用 4 个线程进行压缩
+压缩对象中: 100% (3/3), 完成.
+写入对象中: 100% (3/3), 472 字节 | 472.00 KiB/s, 完成.
+总共 3（差异 0），复用 0（差异 0），包复用 0
+To https://github.com/Sherlock0129/NUIST_202283890007_Python.git
+   a5157c6..f0a0875  main -> main
